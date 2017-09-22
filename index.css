@@ -1,0 +1,173 @@
+
+header {
+	/*position: absolute;*/
+	top: 0px;
+	height: 100px;
+	width: 100%;
+}
+
+.name {
+	background-color: #4aaaa5;
+	font-size: 20px;
+	font-family: Times New Roman;
+	padding: 10px;
+	color: #ffffff;
+	width: 350px;	
+	height: 100px;
+	text-align: center;
+	margin-left: 200px;
+	margin-bottom: 0px;	
+}
+
+.sitelinks {
+	position: relative;
+	/*float: right;*/
+	
+	/*margin-right: 200px;*/
+	margin-left: 900px;
+	/*margin-bottom: 50px;*/
+	margin-top: -35px;
+	font-family: Times New Roman; 
+	font-size: 25px;
+	background-color: #ffffff;
+	color: #777777;
+	text-align: center;
+	line-height: 25px;
+	padding: 15px;
+	height: 10px;
+	width: 400px;
+	bottom: 75px;
+
+}
+
+#linkabout {
+	border-right: solid 2px lightgrey;
+	margin-right: 10px;
+}
+
+#linkcontact {
+	border-right: solid 2px lightgrey;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	padding-right: 10px;
+}
+
+/*.verticalbreak {
+	height: 20px;
+	width: 2px;
+	background-color: #eeeeee;
+
+}*/
+
+/*.clearfix::after{*/
+	/*content: "";
+	display:block;
+	clear:both;*/
+/*}*/
+
+/*.headerbreak {
+	background-color: #cccccc
+	height: 50px;
+}*/
+
+.mainsection {
+	clear: both;
+	background-image: url(assests/images/imagebackground.png);
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	border-top: solid 3px lightgrey;
+}
+
+.AboutMe {
+	position: relative;
+	top: 35px;
+	left: 200px;
+	float: left;
+	background-color: #ffffff;
+	/*color: #4aaaa5;*/
+	/*font-size: 30px;*/
+	padding: 20px;
+	width: 625px;
+	height: 400px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 42px;
+}
+
+/*.break {
+	height: 2px;
+	width: 85%
+	background-color: lightgrey;
+}*/
+.hr1 {
+	height: 2px;
+	background-color: lightgrey;
+	width: 95%;
+	border-top: solid 1px lightgrey;
+	padding: 0px;
+	margin: 15px;
+}
+
+.profile {
+	position: relative;
+	float: left;
+	margin: 10px;
+	transform: rotate(270deg);
+}
+
+.abouttext {
+	position: relative;
+	color: #777777;
+	font-size: 25px;
+
+}
+
+.Connect {
+	position: relative;
+	float: right;
+	margin-right: 15%;
+	top: 35px;
+	width: 300px;
+	height: 200px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 25px;
+}
+
+.hr2 {
+	height: 2px;
+	background-color: lightgrey;
+	width: 90%;
+	border-top: solid 1px lightgrey;
+	padding: 0px;
+	margin: 15px;
+}
+
+/*.sectionbreak {
+	height: 5px
+	background-color: #cccccc;
+
+}
+*/
+
+
+footer {
+	background-color: #666666;
+	border-top: solid 8px #4aaaa5;
+	padding: 20px;
+	height: 50px;
+	text-align: center;
+}
+ 
+.foottext {
+	color: lightgrey;
+	font-size: 20px;
+}

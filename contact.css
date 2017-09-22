@@ -1,0 +1,168 @@
+
+header {
+	top: 0px;
+	height: 100px;
+	width: 100%;
+}
+
+.name {
+	background-color: #4aaaa5;
+	font-size: 20px;
+	font-family: Times New Roman;
+	padding: 10px;
+	color: #ffffff;
+	width: 350px;	
+	height: 100px;
+	text-align: center;
+	margin-left: 200px;
+	margin-bottom: 0px;
+}
+
+.sitelinks {
+	position: relative;
+	/*float: right;*/
+	/*margin-right: 200px;*/
+	/*margin-bottom: 0px;*/
+	margin-left: 900px;
+	margin-top: -35px;
+	font-family: Times New Roman; 
+	font-size: 25px;
+	background-color: #ffffff;
+	color: #777777;
+	line-height: 25px;
+	text-align: center;
+	padding: 15px;
+	height: 10px;
+	width: 400px;
+	bottom: 75px;
+}
+#linkabout {
+	border-right: solid 2px lightgrey;
+	margin-right: 10px;
+}
+#linkcontact {
+	border-right: solid 2px lightgrey;
+	margin-right: 10px;
+}
+a {
+	text-decoration: none;
+	color: grey;
+	padding-right: 10px;
+}
+.mainsection {
+	/*clear: both;*/
+	position: relative;
+	background-image: url(assests/images/imagebackground.png);
+	width: 100%;
+	height: 850px;
+	margin-top: 10px;
+	border-top: solid 3px lightgrey;
+}
+
+.contactbox {
+	position: relative;
+	top: 35px;
+	left: 125px;
+	float: left;
+	background-color: #ffffff;
+	padding: 20px;
+	width: 700px;
+	height: 700px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 42px;
+}
+
+
+.hr1 {
+	height: 2px;
+	background-color: lightgrey;
+	width: 95%;
+	border-top: solid 1px lightgrey;
+	padding: 0px;
+	margin: 15px;
+}
+
+
+
+
+
+
+.Connect {
+	position: relative;
+	float: right;
+	margin-right: 15%;
+	top: 35px;
+	width: 300px;
+	height: 200px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 25px;
+}
+
+.hr2 {
+	height: 2px;
+	background-color: lightgrey;
+	width: 90%;
+	border-top: solid 1px lightgrey;
+	padding: 0px;
+	margin: 15px;
+}
+
+form {
+	font-size: 30px;
+	font-family: Times New Roman;
+	color: #777777;
+	line-height: 40px;
+	/*position: relative;*/
+	/*float: left;*/
+}
+Name {
+	margin: 30px;
+}
+
+Email {
+	margin: 30px;
+}
+
+Message {
+	margin: 30px;
+}
+
+input {
+	/*position: fixed;*/
+	/*float: left;*/
+	margin: 10px;
+}
+
+textarea {
+	/*position: fixed;*/
+	/*float: left;*/
+	margin: 10px;
+}
+
+button {
+	height: 75px;
+	width: 175px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: Times New Roman;
+	font-size: 35px;
+}
+
+
+footer {
+	background-color: #666666;
+	border-top: solid 8px #4aaaa5;
+	padding: 20px;
+	height: 50px;
+	text-align: center;
+}
+ 
+.foottext {
+	color: lightgrey;
+	font-size: 20px;
+}
